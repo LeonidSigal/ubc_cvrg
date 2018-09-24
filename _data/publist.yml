@@ -37,7 +37,7 @@
     display:  Computer Vision and Pattern Recognition (2016)
   highlight: 0
   news2: 
-
+  
 - title: "Unlabelled 3D Motion Examples Improve Cross View Action Recognition"
   image: dummy.png
   description: "We demonstrate a novel strategy for unsupervised cross view action recognition using multi view feature synthesis. We do not rely on cross view video annotations to transfer knowledge across views but use local features generated using motion capture data to learn the feature transformation. Motion capture data allows us to build a feature level correspondence between two synthesized views. We learn a feature mapping scheme for each view change by making a naive assumption that all features transform independently. This assumption along with the exact feature correspondences dramatically simplifies learning. With this learned mapping we are able to hallucinate action descriptors corresponding to different viewpoints. This simple approach effectively models the transformation of BoW based action descriptors under viewpoint change and outperforms the state of the art on the INRIA IXMAS dataset."
@@ -47,3 +47,24 @@
     display:  BMVC (2014)
   highlight: 0
   news2: 
+  
+- title: "Modular Generative Adversarial Networks"
+  image: dummy.png
+  description: "Existing methods for multi-domain image-to-image translation (or generation) attempt to directly map an input image (or a random vector) to an image in one of the output domains. However, most existing methods have limited scalability and robustness, since they require building independent models for each pair of domains in question. This leads to two significant shortcomings: (1) the need to train exponential number of pairwise models, and (2) the inability to leverage data from other domains when training a particular pairwise mapping. Inspired by recent work on module networks, this paper proposes ModularGAN for multi-domain image generation and image-to-image translation. ModularGAN consists of several reusable and composable modules that carry on different functions (e.g., encoding, decoding, transformations). These modules can be trained simultaneously, leveraging data from all domains, and then combined to construct specific GAN networks at test time, according to the specific image translation task. This leads to ModularGAN’s superior flexibility of generating (or translating to) an image in any desired domain. Experimental results demonstrate that our model not only presents compelling perceptual results but also outperforms state-of-the-art methods on multi-domain facial attribute transfer."
+  authors:  B. Zhao, B. Chang, Z. Jie and L. Sigal
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/eccv2018zhao.pdf
+    display:  European Conference on Computer Vision (2018)
+  highlight: 0
+  news2: 
+  
+- title: "Probabilistic Video Generation using Holistic Attribute Control"
+  image: dummy.png
+  description: "Videos express highly structured spatio-temporal patterns of visual data. A video can be thought of as being governed by two factors: (i) temporally invariant (e.g., person identity), or slowly varying (e.g., activity), attribute-induced appearance, encoding the persistent content of each frame, and (ii) an inter-frame motion or scene dynamics (e.g., encoding evolution of the person executing the action). Based on this intuition, we propose a generative framework for video generation and future prediction. The proposed framework generates a video (short clip) by decoding samples sequentially drawn from a latent space distribution into full video frames. Variational Autoencoders (VAEs) are used as a means of encoding/decoding frames into/from the latent space and RNN as a way to model the dynamics in the latent space. We improve the video generation consistency through temporally-conditional sampling and quality by structuring the latent space with attribute controls; ensuring that attributes can be both inferred and conditioned on during learning/generation. As a result, given attributes and/or the first frame, our model is able to generate diverse but highly consistent sets of video sequences, accounting for the inherent uncertainty in the prediction task. Experimental results on Chair CAD, Weizmann Human Action, and MIT Flickr datasets, along with detailed comparison to the state-of-the-art, verify effectiveness of the framework."
+  link:
+    url: https://www.cs.ubc.ca/~lsigal/Publications/eccv2018he.pdf
+    display: European Conference on Computer Vision (2018)
+  highlight: 0
+  news2: 
+  
+  
